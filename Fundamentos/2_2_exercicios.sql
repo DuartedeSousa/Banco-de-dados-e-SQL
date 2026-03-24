@@ -79,3 +79,8 @@ VALUES (-20);
 -- R: O valor não é aceito por não se enquadrar nos parâmetros definidos para o id anteriormente.
 
 -- Exercício 19: Insira um curso com id=14, nome='Kotlin', aulas=18, ativo=1, usando aspas duplas em tudo.
+
+INSERT INTO crusos ("id", "nome", "aulas", "ativo")
+VALUES ("14", "Kotlin", "18", "1");
+
+-- R: Ao executar tal comando atribuindo aspas duplas à todos os valores, ocorre um erro, pois ao colocarmos esta condição nas variáveis, algumas delas deixam de ser INTEGER e viram TEXT, gerando um problema no momento em que os valores são transferidos para a base de dados.
