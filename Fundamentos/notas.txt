@@ -1,0 +1,8 @@
+# Notas:
+
+- Banco (ondes os dados estão reunidos): 2_0_banco.sqlite
+- Local onde os comandos serão colocados: 2_1_create-and-drop.sql
+
+Ou seja, podemos concluir que:
+arquivos.db ou arqivos.sqlite são voltados para a criação de um 'banco de dados';
+arquivos.sql são voltados para a execução de comandos no banco de dados escolhido.
